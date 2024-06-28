@@ -1,0 +1,40 @@
+#head{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    /* margin-top: 100px; */
+    padding-top: 100px;
+  }
+
+  .search-container{
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 10px
+  }
+
+  .search-container input {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 19px;
+    border: 2px solid black;
+  }
+
+ .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background: #ccc;
+  }
+
+  @media screen and (max-width: 335px) {
+    #head {
+        font-size:50px ;
+    }
+  }
