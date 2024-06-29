@@ -9,18 +9,21 @@
   .search-container{
     text-align: center;
     padding-top: 30px;
-    margin-left: 10px
+    margin-left: 10px;
+    
+    
   }
 
   .search-container input {
-    padding: 6px;
+    padding: 9px;
     margin-top: 8px;
     font-size: 19px;
     border: 2px solid black;
+    width: 230px;
   }
 
  .search-container button {
-    padding: 6px 10px;
+    padding: 6px 11px;
     margin-top: 8px;
     margin-right: 16px;
     background: #ddd;
@@ -37,4 +40,36 @@
     #head {
         font-size:50px ;
     }
+  }
+
+ #main_download{
+visibility: visible;
+display: block;
+  }
+  .download_image{
+    margin-top: 13px;
+    width: 900;
+  }
+
+  .dwd-button{
+    font-size: 14px;
+    padding: 13px 22px;
+    box-shadow: 0 5px 14px -7px #fff !important;
+    background: linear-gradient(135deg, #67df03b8, #1356d5b8) !important;
+    margin-bottom: 4px;
+  }
+
+  .movie{
+    visibility: hidden;
+    display: none;
+  }
+
+  .screenshots{
+    padding-top: 12px;
+    width: 750px;
+    height: 333px;
+  }
+
+  #p{
+    font-size: 50px;
   }
