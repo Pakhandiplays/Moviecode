@@ -73,3 +73,15 @@ display: block;
   #p{
     font-size: 50px;
   }
+
+  #Quality{
+   width: 150px;
+   padding: 13px 21px;
+   background: linear-gradient(135deg, #ee4908b8, #1356d5b8) !important;
+  }
+
+  #Quality_btn{
+   margin-top: 4px;
+   padding: 9px 18px;
+   background: linear-gradient(135deg, #ee4908b8, #05d728b8) !important;
+  }
